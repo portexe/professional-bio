@@ -1,0 +1,13 @@
+.main {
+  width: 175px;
+}
+.main h2 {
+  font-size: 16px;
+  color: rgb(3, 139, 218);
+}
+.skill {
+  color: gray;
+  font-size: 16px;
+  font-family: serif;
+  margin-bottom: 15px;
+}

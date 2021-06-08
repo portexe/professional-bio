@@ -1,3 +1,4 @@
+export * from './Skills';
 export * from './JobItem';
-export * from './Experience';
 export * from './BioHeader';
+export * from './Experience';

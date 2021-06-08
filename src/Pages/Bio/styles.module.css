@@ -1,2 +1,15 @@
 .main {
+  padding: 50px;
+}
+.content {
+  display: flex;
+}
+.experience {
+  flex: 3;
+  margin-right: 100px;
+  flex-basis: 650px;
+}
+.skills {
+  flex: 1;
+  flex-basis: 175px;
 }

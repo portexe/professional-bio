@@ -1,27 +1,20 @@
+import { useBio } from 'Hooks';
 import styles from './styles.module.css';
-import { useEffect, useState } from 'react';
-import { BioHeader, Experience } from 'Components';
-import { userEndpoint, experienceEndpoint } from 'Constants';
+import { Skills, BioHeader, Experience } from 'Components';
 
 export const Bio = () => {
-  const [user, setUser] = useState();
-  const [experience, setExperience] = useState();
-
-  useEffect(() => {
-    fetch(userEndpoint)
-      .then(res => res.json())
-      .then(u => setUser(u));
-
-    fetch(experienceEndpoint)
-      .then(res => res.json())
-      .then(e => setExperience(e));
-  }, []);
+  const { user, skills, experience } = useBio();
 
   return (
     <div className={styles.main}>
       {user ? <BioHeader user={user} /> : <>Loading...</>}
 
-      {experience ? <Experience experience={experience} /> : <>Loading...</>}
+      <div className={styles.content}>
+        <div className={styles.experience}>
+          {experience ? <Experience experience={experience} /> : <>Loading...</>}
+        </div>
+        <div className={styles.skills}>{skills ? <Skills skills={skills} /> : <>Loading...</>}</div>
+      </div>
     </div>
   );
 };
