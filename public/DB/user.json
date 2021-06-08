@@ -1,0 +1,25 @@
+{
+  "name": "Zackery Wilson",
+  "imageUrl": "https://avatars.githubusercontent.com/u/12701185?v=4",
+  "description": "I am a Software Engineer who specializes in frontend web technologies. Over the years I have leveraged the latest tech to stay on top of the rapidly changing field of software development",
+  "address": {
+    "lineOne": "1885 Kenwood Road SE",
+    "city": "Smyrna",
+    "state": "GA",
+    "zip": "30082",
+    "links": [
+      {
+        "name": "Website",
+        "url": "https://portexe.com"
+      },
+      {
+        "name": "LinkedIn",
+        "url": "https://www.linkedin.com/in/zackazt/"
+      },
+      {
+        "name": "GitHub",
+        "url": "https://github.com/portexe"
+      }
+    ]
+  }
+}

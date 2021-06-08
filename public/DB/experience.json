@@ -1,0 +1,44 @@
+[
+  {
+    "companyName": "The Home Depot",
+    "jobTitle": "Staff Software Engineer (Lead)",
+    "startDate": "Oct 2020",
+    "endDate": "May 2021",
+    "description": "Developing user interfaces used by thousands of stores. Developing backends for our frontends to communicate with. Leading a small development team. Technologies include React, Cypress, Storybook, Rollup, Node.js and much more"
+  },
+  {
+    "companyName": "Clearcover Inc",
+    "jobTitle": "Senior Frontend Software Engineer",
+    "startDate": "Sep 2019",
+    "endDate": "Aug 2020",
+    "description": "My time at Clearcover was spent re-developing Clearcover’s customer-facing acquisition application. The technologies used ranged from React and React Native to Cypress, Docker, and more."
+  },
+  {
+    "companyName": "NCR Corporation",
+    "jobTitle": "Lead Software Developer",
+    "startDate": "Apr 2019",
+    "endDate": "Jul 2019",
+    "description": "Developing features for a rapidly growing React.js application. GraphQL, Prisma, Material UI, and React were all technologies I was involved with during this position. I spent a good portion of my time pair programming with the junior developers as well, in order to train them on the stack."
+  },
+  {
+    "companyName": "Progressive Insurance",
+    "jobTitle": "Software Consultant",
+    "startDate": "Dec 2018",
+    "endDate": "Apr 2019",
+    "description": "Up-skilling and coaching Progressive’s software development teams on Angular, RxJS, and JavaScript. Assessing viability and risk of architectural decisions. Building workshops on technical front-end software development topics."
+  },
+  {
+    "companyName": "Amergint Technologies",
+    "jobTitle": "Software Engineer",
+    "startDate": "Jun 2017",
+    "endDate": "Dec 2018",
+    "description": "Converting Flash applications to Angular, JavaScript, HTML, and SCSS/CSS. Building unit-tests to test against Angular components and services. Building upon existing Python software to adapt to continuously evolving systems. 80% of the time developing in Angular and 20% of the time developing in Python and performing various tasks on our Linux servers."
+  },
+  {
+    "companyName": "Stand and Stretch",
+    "jobTitle": "Full Stack Web Developer",
+    "startDate": "Jan 2015",
+    "endDate": "Jun 2017",
+    "description": "Implementing Search Engine Optimization to improve search results. Designing and developing web pages based on client desires. Debugging and testing existing code bases. Designed and implemented strategies for maintaining and updating future code bases. Used Angular to replace legacy user interfaces."
+  }
+]
