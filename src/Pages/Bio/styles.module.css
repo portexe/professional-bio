@@ -6,7 +6,6 @@
   display: flex;
   flex-wrap: wrap;
 }
-
 .contentColumn {
   flex: 5;
   margin-right: 50px;
@@ -16,10 +15,16 @@
   flex-basis: 100px;
 }
 .intro {
+  display: flex;
   min-height: 200px;
+  padding-left: 25px;
+  padding-right: 25px;
 }
 .contactInfo {
   min-height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .main h2 {
   font-size: 16px;
@@ -49,11 +54,13 @@
 @media (max-width: 840px) {
   .main {
     padding: 10px;
-    width: 100%;
+    width: 100vw;
   }
   .contentColumn {
-    /* order: 2; */
     flex-basis: 100%;
     margin-right: 0px;
+  }
+  .tile {
+    text-align: center;
   }
 }

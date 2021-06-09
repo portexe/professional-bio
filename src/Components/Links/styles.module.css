@@ -1,0 +1,9 @@
+.main {
+  display: flex;
+  justify-content: center;
+}
+.link {
+  margin: 25px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}

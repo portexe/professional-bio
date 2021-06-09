@@ -1,10 +1,16 @@
+import {
+  userEndpoint,
+  skillsEndpoint,
+  experienceEndpoint,
+  certificationsEndpoint,
+} from 'Constants';
 import { useEffect, useState } from 'react';
-import { userEndpoint, skillsEndpoint, experienceEndpoint } from 'Constants';
 
 export const useBio = () => {
   const [user, setUser] = useState();
   const [skills, setSkills] = useState();
   const [experience, setExperience] = useState();
+  const [certifications, setCertifications] = useState();
 
   useEffect(() => {
     fetch(userEndpoint)
@@ -18,11 +24,16 @@ export const useBio = () => {
     fetch(experienceEndpoint)
       .then(res => res.json())
       .then(e => setExperience(e));
+
+    fetch(certificationsEndpoint)
+      .then(res => res.json())
+      .then(c => setCertifications(c));
   }, []);
 
   return {
     user,
     skills,
     experience,
+    certifications,
   };
 };

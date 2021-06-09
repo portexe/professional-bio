@@ -1,5 +1,12 @@
 [
   {
+    "companyName": "PortEXE",
+    "jobTitle": "Instructor",
+    "startDate": "Jan 2017",
+    "endDate": "",
+    "description": "I teach programming to thousands of people online. I also contribute to open source projects and develop custom applications using all of the latest development technology and standards."
+  },
+  {
     "companyName": "The Home Depot",
     "jobTitle": "Staff Software Engineer (Lead)",
     "startDate": "Oct 2020",

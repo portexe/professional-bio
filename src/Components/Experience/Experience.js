@@ -1,3 +1,4 @@
+import { Tile } from 'Components';
 import styles from './styles.module.css';
 
 export const Experience = ({ experience }) => (
@@ -6,17 +7,17 @@ export const Experience = ({ experience }) => (
 
     <div className={styles.experience}>
       {experience.map((e, index) => (
-        <div className={styles.item} key={index}>
+        <Tile key={index}>
           <h3>{e.companyName},</h3>
 
           <h4>{e.jobTitle}</h4>
 
           <h6>
-            {e.startDate} - {e.endDate}
+            {e.startDate} - {e.endDate || 'PRESENT'}
           </h6>
 
           <p>{e.description}</p>
-        </div>
+        </Tile>
       ))}
     </div>
   </div>
