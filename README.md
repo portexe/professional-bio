@@ -24,3 +24,10 @@
 3. 1:30 - 2:30 (Jun 9):
 
    - Responsive design
+
+4. 4:30 - 5:30 (Jun 9):
+
+   - Component-ization
+   - Certifications
+   - Links
+   - Finishing touches
