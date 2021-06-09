@@ -1,18 +1,33 @@
 import { useBio } from 'Hooks';
 import styles from './styles.module.css';
-import { Skills, BioHeader, Experience } from 'Components';
+import { Intro, Skills, Experience, ContactInfo } from 'Components';
 
 export const Bio = () => {
   const { user, skills, experience } = useBio();
 
   return (
     <div className={styles.main}>
-      {user ? <BioHeader user={user} /> : <>Loading...</>}
+      <div className={styles.contentColumn}>
+        {user ? (
+          <div className={styles.intro}>
+            <Intro user={user} />
+          </div>
+        ) : (
+          <>Loading...</>
+        )}
 
-      <div className={styles.content}>
-        <div className={styles.experience}>
-          {experience ? <Experience experience={experience} /> : <>Loading...</>}
-        </div>
+        {experience ? <Experience experience={experience} /> : <>Loading...</>}
+      </div>
+
+      <div className={styles.detailsColumn}>
+        {user ? (
+          <div className={styles.contactInfo}>
+            <ContactInfo user={user} />
+          </div>
+        ) : (
+          <>Loading...</>
+        )}
+
         <div className={styles.skills}>{skills ? <Skills skills={skills} /> : <>Loading...</>}</div>
       </div>
     </div>

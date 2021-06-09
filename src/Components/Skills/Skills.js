@@ -6,7 +6,9 @@ export const Skills = ({ skills }) => {
       <h2>Languages, Platforms, and Frameworks</h2>
 
       {skills.map((s, index) => (
-        <div className={styles.skill}>{s}</div>
+        <div key={index} className={styles.skill}>
+          {s}
+        </div>
       ))}
     </div>
   );

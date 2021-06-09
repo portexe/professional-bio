@@ -1,12 +1,7 @@
 import styles from './styles.module.css';
 
-export const BioHeader = ({ user }) => (
-  <div className={styles.main}>
-    <div className={styles.intro}>
-      <h1>{user.name}</h1>
-
-      <p>{user.description}</p>
-    </div>
+export const ContactInfo = ({ user }) => {
+  return (
     <div className={styles.address}>
       <div className={styles.lineOne}>{user.address.lineOne}</div>
 
@@ -22,5 +17,5 @@ export const BioHeader = ({ user }) => (
         <b>{user.email}</b>
       </div>
     </div>
-  </div>
-);
+  );
+};

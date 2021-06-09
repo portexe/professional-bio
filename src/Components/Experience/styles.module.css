@@ -1,32 +1,5 @@
-.main {
-}
-.main h2 {
-  font-size: 16px;
-  color: rgb(3, 139, 218);
-}
-
-.experience h3 {
-  font-size: 20px;
-  font-family: serif;
-  font-weight: 700;
-}
-.experience h4 {
-  font-size: 20px;
-  font-family: serif;
-  font-weight: 500;
-  margin-bottom: 0px;
-}
-.experience h6 {
-  color: gray;
-  font-size: 14px;
-  font-weight: 300;
-  margin-top: 0px;
-  margin-bottom: 0px;
-}
 .experience p {
   color: gray;
   margin-top: 5px;
   font-weight: 500;
-}
-.main .item {
 }
